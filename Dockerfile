@@ -42,4 +42,4 @@ COPY scripts/setup_vim.sh ${USER_HOME}/install/setup_vim.sh
 COPY scripts/coc-settings.json ${USER_HOME}/install/coc-settings.json
 
 # Command to run when container starts, overrideable
-CMD /bin/bash
+CMD ["/bin/bash"]
